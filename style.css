@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;  
+    flex-direction: column;    
+    align-items: center;
+    background: linear-gradient(rgb(47,150,163), rgb(48,62,143));
+}
+.temperature{
+   height: 20vh;
+   width: 50%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.description{
+    height: 20vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.find-btn{
+    
+   color: #494949 !important;
+   text-transform: uppercase;
+   text-decoration: none;
+   background: #ffffff;
+   padding: 10px;
+   border: 4px solid #494949 !important;
+   display: inline-block;
+   transition: all 0.4s ease 0s;
+   display: flex;
+   outline: none;
+
+}
+.find-btn:hover {
+    color: #ffffff !important;
+    background:#f6b93b;
+    border-color: #f6b93b !important;
+    transition: all 0.4s ease 0s;
+}
+
+#locations{
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+	width: 100%;
+	background: #fff;
+	margin-bottom: 4%;
+	border: 1px solid #ccc;
+	padding: 3%;
+	color: #555;
+	font: 95% Arial, Helvetica, sans-serif;
+
+
+}
+.temperature h1{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    font-size: 40px;
+}
